@@ -1,0 +1,26 @@
+{
+  "name": "Web Design Class",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  
+  "forwardPorts": [5500],
+  "portsAttributes": {
+    "5500": {
+      "label": "Preview",
+      "onAutoForward": "openPreview"
+    }
+  },
+  
+  "postStartCommand": "npx serve -p 5500",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "liveServer.settings.port": 5500
+      }
+    }
+  }
+}
