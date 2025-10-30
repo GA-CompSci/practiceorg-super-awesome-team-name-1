@@ -1,21 +1,27 @@
 
----colors----
-
---alice-blue: #e3f2fdff;
---uranian-blue: #bbdefbff;
---light-sky-blue: #90caf9ff;
---argentinian-blue: #64b5f6ff;
---argentinian-blue-2 #42a5f5ff;
---dodger-blue #2196f3ff;
---bleu-de-france #1e88e5ff;
---french-blue #1976d2ff;
---green-blue #1565c0ff;
---cobalt-blue #0d47a1ff;    
-  font-family: "Quicksand", sans-serif;  font-family: "Lilita One", sans-serif;
+/********COLORS********/
+/********COLORS********/
+e3f2fdff;
+bbdefbff;
+90caf9ff;
+64b5f6ff;
+42a5f5ff;
+2196f3ff;
+1e88e5ff;
+1976d2ff;
+1565c0ff;
+0d47a1ff;    
+/********COLORS********/
+/********COLORS********/
  
+  body, p, div {
+  font-family: "Quicksand", sans-serif;  
+ }
  
-  h1,h2,h3,h4,h5 {
-    font-family: "Lilita One", sans-serif;
+  h1,h2,h3,h4,h5 
+  .header-logo a,
+  .nav-link {
+    font: "Lilita One", sans-serif;
     color: #0d47a1ff ;
  
    

@@ -4,7 +4,7 @@
 *
 -------------------------------------------------*/
 .theme-color-purple a:not([class^='button']):not([class^="link-social"]):not(.header-logo a):hover {
-  color: #B721FF;
+  color: #217aff;
 }
 
 .theme-color-purple [class*='bg-gradient'] a:not([class^='button']):not([class^="link-social"]):not(.header-logo a):hover,
@@ -14,7 +14,7 @@
 
 
 .theme-color-purple .header .header-menu:not([class*='dropdown-color']) .nav .nav-item .nav-dropdown a:not([class^='button']):not([class^="link-social"]):hover, .theme-color-purple .header .header-menu:not([class*='dropdown-color']) .nav .nav-item .nav-dropdown a:not([class^='button']):not([class^="link-social"]):focus {
-  color: #B721FF;
+  color: #2181ff;
 }
 
 
